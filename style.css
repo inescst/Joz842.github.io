@@ -1,0 +1,91 @@
+body {
+
+           text-align: center;
+
+}
+
+ 
+
+h1 {
+
+           color: white;
+
+           background: lightgrey;
+
+           font-family: 'Comfortaa', cursive;
+           background-image: url("phili.jpg");
+           background-size: cover;
+           /*height : 300px*/
+           padding: 80px;
+
+}
+
+ 
+
+body
+
+{
+
+           background: lightblue;
+         background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+ 
+
+h2 {
+
+           color: black;
+
+           font-family: 'Comfortaa', cursive;
+
+}
+
+ 
+
+ul {
+
+text-align: left;
+
+}
+
+ 
+
+img {
+
+          width: 300px
+
+}
+
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ float:left; /*pour IE*/
+ border-left:1px solid black;
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ line-height:50px; /*hauteur de l'image de fond*/
+ background:black url(images/noir-1.png) repeat-x;
+ color:#DCDCDC;
+ text-decoration:none;
+ text-align:center;
+ }
+ul li a:hover {
+ background:black url(images/noir-2.png) repeat-x;
+ color:white;
+ }  
+
+
+
+
